@@ -1,0 +1,552 @@
+
+<action>
+**MessageAction** (source=EventSource.AGENT)
+CONTENT: Entendido, iniciando construção do aplicativo de chat multimodal com motor local e gestor de binários, aguarde～
+</action>
+<action>
+SubagentAction(subagent_name='PRDAgent', instruction='PROJETO: CONSTRUTOR DE CHAT MULTIMODAL E GESTOR DE BINÁRIOS\n\nOBJETIVO: Criar a estrutura completa de um aplicativo de chat de alto nível, com interface nativa, motor de gestão de arquivos (RAG) e suporte a inferência via modelos locais (.gguf / .bin). O aplicativo é desenhado para rodar puramente local, processando dados do armazenamento do dispositivo.\n\n1. ESTRUTURA DO CHAT (A CASA):\nInterface de Conversa: Layout de chat limpo e profissional, com suporte a:\n- Entrada de texto com envio imediato.\n- Botão de anexo para upload de Imagens, Vídeos, Documentos e Áudios.\n- Renderização fiel de respostas (texto e arquivos processados pelo motor local).\n- Gestão de Sessões: Histórico persistente, com controle total para limpar chats e organizar memórias.\n\n2. A "ENGRENAGEM" (CONTROLE TOTAL):\nÍcone de engrenagem no topo, levando ao painel de controle do motor contendo:\n- Gestor de Modelos: Interface para mapear e carregar binários (.gguf / .bin) diretamente do armazenamento interno.\n- Controle de RAG: Gestão das pastas de armazenamento (fotos, vídeos, áudios, documentos), com estrutura pronta para absorver e indexar conteúdos automaticamente como inteligência base.\n- Controle de Resposta: Sliders para ajuste de Temperatura (criatividade) e Max Tokens (tamanho da resposta), garantindo precisão absoluta e controle total sobre a saída do modelo.\n- Configurações de Áudio: Chave para ativação de voz humana natural (TTS), fluida e sem traços robóticos.\n\n3. MECANISMO DE I/O E PROCESSAMENTO:\n- Multimodalidade: O sistema é estruturado para capturar, processar e responder com qualquer tipo de arquivo (texto, imagem, vídeo, áudio), tratando-os como dados reais de entrada e saída.\n- Bridge de Execução: O aplicativo deve expor um hook de execução robusto para o binário carregado, permitindo que o motor de inferência processe os dados do chat sem latência ou desvios lógicos.\n- Integração RAG: O motor deve realizar a leitura e escrita automática nas pastas definidas, tratando o conteúdo armazenado como base de conhecimento real para todas as respostas.\n\n4. PROTOCOLO DE CONSTRUÇÃO E ENTREGA:\n- Execução Direta: Todo o código gerado deve ser focado na lógica de funcionamento pleno. O sistema é desenhado para ser funcional, sem mecanismos de simulação ou adivinhação.\n- Aprimoramento: Autonomia para sugerir melhorias na arquitetura da interface ou na eficiência do tráfego de dados entre o chat e as pastas, mantendo sempre a estrutura de controle local.\n- Entrega: A plataforma deve gerar a estrutura completa, pronta para que o usuário possa aplicar os binários e ativar o motor de inferência, garantindo que a casa esteja pronta para o uso imediato e totalmente independente de APIs externas.\n\nTipo de app: Aplicativo Web (interface web completa)\nIdioma da UI: Português', input={'lang_env': 'English', 'lang_user': 'Portuguese', 'prd': '', 'app_type': '', 'is_generated': False, 'metadata': {'a2a': [{'kind': 'text', 'metadata': None, 'text': 'PROJETO: CONSTRUTOR DE CHAT MULTIMODAL E GESTOR DE BINÁRIOS\n\u200bOBJETIVO: Criar a estrutura completa de um aplicativo de chat de alto nível, com interface nativa, motor de gestão de arquivos (RAG) e suporte a inferência via modelos locais (.gguf / .bin). O aplicativo é desenhado para rodar puramente local, processando dados do armazenamento do dispositivo.\n\u200b1. ESTRUTURA DO CHAT (A CASA):\n\u200bInterface de Conversa: Layout de chat limpo e profissional, com suporte a:\n\u200bEntrada de texto com envio imediato.\n\u200bBotão de anexo para upload de Imagens, Vídeos, Documentos e Áudios.\n\u200bRenderização fiel de respostas (texto e arquivos processados pelo motor local).\n\u200bGestão de Sessões: Histórico persistente, com controle total para limpar chats e organizar memórias.\n\u200b2. A "ENGRENAGEM" (CONTROLE TOTAL):\n\u200bÍcone de engrenagem no topo, levando ao painel de controle do motor contendo:\n\u200bGestor de Modelos: Interface para mapear e carregar binários (.gguf / .bin) diretamente do armazenamento interno.\n\u200bControle de RAG: Gestão das pastas de armazenamento (fotos, vídeos, áudios, documentos), com estrutura pronta para absorver e indexar conteúdos automaticamente como inteligência base.\n\u200bControle de Resposta: Sliders para ajuste de Temperatura (criatividade) e Max Tokens (tamanho da resposta), garantindo precisão absoluta e controle total sobre a saída do modelo.\n\u200bConfigurações de Áudio: Chave para ativação de voz humana natural (TTS), fluida e sem traços robóticos.\n\u200b3. MECANISMO DE I/O E PROCESSAMENTO:\n\u200bMultimodalidade: O sistema é estruturado para capturar, processar e responder com qualquer tipo de arquivo (texto, imagem, vídeo, áudio), tratando-os como dados reais de entrada e saída.\n\u200bBridge de Execução: O aplicativo deve expor um hook de execução robusto para o binário carregado, permitindo que o motor de inferência processe os dados do chat sem latência ou desvios lógicos.\n\u200bIntegração RAG: O motor deve realizar a leitura e escrita automática nas pastas definidas, tratando o conteúdo armazenado como base de conhecimento real para todas as respostas.\n\u200b4. PROTOCOLO DE CONSTRUÇÃO E ENTREGA:\n\u200bExecução Direta: Todo o código gerado deve ser focado na lógica de funcionamento pleno. O sistema é desenhado para ser funcional, sem mecanismos de simulação ou adivinhação.\n\u200bAprimoramento: Você tem autonomia para sugerir melhorias na arquitetura da interface ou na eficiência do tráfego de dados entre o chat e as pastas, mantendo sempre a estrutura de controle local.\n\u200bEntrega: A plataforma deve gerar a estrutura completa, pronta para que eu possa aplicar os binários e ativar o motor de inferência, garantindo que a casa esteja pronta para o uso imediato e totalmente independente de APIs externas.'}], 'defaultAgent': 'AdaProCodeactAgent', 'agentConfig': {}, 'runtime': 'miaoda', 'lang': 'en', 'queryMode': 'deep_mode', 'appStatus': 'not_generate', 'hasAgent': False, 'cur_version_last_event_id': -1, 'supportSupabase': 'true', 'subscription_plan': 'free', 'senderUserId': 'user-c82tu37yj8jk', 'is_user_input': True, 'firstMessage': 'PROJETO: CONSTRUTOR DE CHAT MULTIMODAL E GESTOR DE BINÁRIOS\n\u200bOBJETIVO: Criar a estrutura completa de um aplicativo de chat de alto nível, com interface nativa, motor de gestão de arquivos (RAG) e suporte a inferência via modelos locais (.gguf / .bin). O aplicativo é desenhado para rodar puramente local, processando dados do armazenamento do dispositivo.\n\u200b1. ESTRUTURA DO CHAT (A CASA):\n\u200bInterface de Conversa: Layout de chat limpo e profissional, com suporte a:\n\u200bEntrada de texto com envio imediato.\n\u200bBotão de anexo para upload de Imagens, Vídeos, Documentos e Áudios.\n\u200bRenderização fiel de respostas (texto e arquivos processados pelo motor local).\n\u200bGestão de Sessões: Histórico persistente, com controle total para limpar chats e organizar memórias.\n\u200b2. A "ENGRENAGEM" (CONTROLE TOTAL):\n\u200bÍcone de engrenagem no topo, levando ao painel de controle do motor contendo:\n\u200bGestor de Modelos: Interface para mapear e carregar binários (.gguf / .bin) diretamente do armazenamento interno.\n\u200bControle de RAG: Gestão das pastas de armazenamento (fotos, vídeos, áudios, documentos), com estrutura pronta para absorver e indexar conteúdos automaticamente como inteligência base.\n\u200bControle de Resposta: Sliders para ajuste de Temperatura (criatividade) e Max Tokens (tamanho da resposta), garantindo precisão absoluta e controle total sobre a saída do modelo.\n\u200bConfigurações de Áudio: Chave para ativação de voz humana natural (TTS), fluida e sem traços robóticos.\n\u200b3. MECANISMO DE I/O E PROCESSAMENTO:\n\u200bMultimodalidade: O sistema é estruturado para capturar, processar e responder com qualquer tipo de arquivo (texto, imagem, vídeo, áudio), tratando-os como dados reais de entrada e saída.\n\u200bBridge de Execução: O aplicativo deve expor um hook de execução robusto para o binário carregado, permitindo que o motor de inferência processe os dados do chat sem latência ou desvios lógicos.\n\u200bIntegração RAG: O motor deve realizar a leitura e escrita automática nas pastas definidas, tratando o conteúdo armazenado como base de conhecimento real para todas as respostas.\n\u200b4. PROTOCOLO DE CONSTRUÇÃO E ENTREGA:\n\u200bExecução Direta: Todo o código gerado deve ser focado na lógica de funcionamento pleno. O sistema é desenhado para ser funcional, sem mecanismos de simulação ou adivinhação.\n\u200bAprimoramento: Você tem autonomia para sugerir melhorias na arquitetura da interface ou na eficiência do tráfego de dados entre o chat e as pastas, mantendo sempre a estrutura de controle local.\n\u200bEntrega: A plataforma deve gerar a estrutura completa, pronta para que eu possa aplicar os binários e ativar o motor de inferência, garantindo que a casa esteja pronta para o uso imediato e totalmente independente de APIs externas.'}, 'generate_app_requested': False}, context_strategy='clean', context_agent_names=[], thought='Delegating to PRDAgent', action=<ActionType.SUBAGENT: 'subagent'>)
+</action>
+<observation>
+SubagentObservation(content='Subagent \'PRDAgent\' (conv-caq9b6amcni8/subagent-PRDAgent-ID11) successfully completed. Summary: , Output: {\'actions\': [{\'type\': \'button\', \'label\': \'Generate App\', \'value\': \'Generate App\', \'event\': {\'name\': \'generateApp\'}}], \'appInfo\': {\'requirementType\': \'Web\'}, \'appType\': \'Web\', \'prd\': \'# Documento de Requisitos\\n\\n## 1. Visão Geral da Aplicação\\n\\n### 1.1 Nome da Aplicação\\nConstrutor de Chat Multimodal e Gestor de Binários\\n\\n### 1.2 Descrição\\nAplicação web de chat local com capacidade de processar múltiplos tipos de arquivos (texto, imagem, vídeo, áudio, documentos), gerenciar modelos de inferência em formato binário (.gguf / .bin) e indexar conteúdos do armazenamento local como base de conhecimento (RAG). O sistema opera completamente offline, sem dependência de APIs externas.\\n\\n## 2. Usuários e Cenários de Uso\\n\\n### 2.1 Usuário-Alvo\\nUsuários que necessitam de processamento de linguagem natural e análise multimodal em ambiente local, com controle total sobre modelos e dados.\\n\\n### 2.2 Cenários Principais\\n- Conversação com modelo de IA carregado localmente\\n- Upload e processamento de arquivos diversos (imagens, vídeos, áudios, documentos)\\n- Gestão de modelos binários e configuração de parâmetros de inferência\\n- Indexação automática de conteúdos armazenados para enriquecimento de respostas\\n\\n## 3. Estrutura de Páginas e Funcionalidades\\n\\n```\\nAplicação Web\\n├── Página Principal (Interface de Chat)\\n│   ├── Área de Conversa\\n│   ├── Campo de Entrada\\n│   ├── Botão de Anexo\\n│   └── Ícone de Engrenagem (acesso ao Painel de Controle)\\n└── Painel de Controle\\n    ├── Gestor de Modelos\\n    ├── Controle de RAG\\n    ├── Controle de Resposta\\n    └── Configurações de Áudio\\n```\\n\\n### 3.1 Página Principal (Interface de Chat)\\n\\n#### 3.1.1 Área de Conversa\\n- Exibir histórico de mensagens do usuário e respostas do sistema\\n- Renderizar texto e arquivos processados (imagens, vídeos, áudios, documentos)\\n- Suportar rolagem para visualização de conversas longas\\n\\n#### 3.1.2 Campo de Entrada\\n- Permitir digitação de texto\\n- Enviar mensagem ao pressionar Enter ou clicar em botão de envio\\n\\n#### 3.1.3 Botão de Anexo\\n- Abrir seletor de arquivos do dispositivo\\n- Aceitar tipos: imagens, vídeos, documentos, áudios\\n- Anexar arquivo selecionado à mensagem\\n\\n#### 3.1.4 Gestão de Sessões\\n- Persistir histórico de conversas no armazenamento local\\n- Fornecer opção para limpar histórico de chat\\n\\n#### 3.1.5 Ícone de Engrenagem\\n- Posicionado no topo da interface\\n- Abrir Painel de Controle ao ser clicado\\n\\n### 3.2 Painel de Controle\\n\\n#### 3.2.1 Gestor de Modelos\\n- Listar modelos binários (.gguf / .bin) disponíveis no armazenamento interno\\n- Permitir seleção de modelo para carregamento\\n- Exibir status do modelo carregado (ativo/inativo)\\n\\n#### 3.2.2 Controle de RAG\\n- Mapear pastas de armazenamento: fotos, vídeos, áudios, documentos\\n- Permitir definição de caminhos das pastas\\n- Indexar automaticamente conteúdos das pastas definidas como base de conhecimento\\n\\n#### 3.2.3 Controle de Resposta\\n- Slider de Temperatura: ajustar criatividade da resposta (valores numéricos)\\n- Slider de Max Tokens: definir tamanho máximo da resposta (valores numéricos)\\n\\n#### 3.2.4 Configurações de Áudio\\n- Chave de ativação/desativação de síntese de voz (TTS)\\n- Quando ativado, respostas do sistema são convertidas em áudio\\n\\n## 4. Regras de Negócio e Lógica\\n\\n### 4.1 Fluxo de Processamento de Mensagem\\n1. Usuário envia mensagem (texto e/ou arquivo anexado)\\n2. Sistema captura entrada e encaminha para motor de inferência\\n3. Motor processa entrada utilizando modelo carregado e base RAG\\n4. Sistema exibe resposta na área de conversa\\n5. Se TTS ativado, sistema reproduz resposta em áudio\\n\\n### 4.2 Carregamento de Modelo\\n- Apenas um modelo pode estar ativo por vez\\n- Ao selecionar novo modelo, sistema descarrega modelo anterior\\n- Modelo deve estar em formato .gguf ou .bin\\n\\n### 4.3 Indexação RAG\\n- Sistema lê conteúdos das pastas definidas em Controle de RAG\\n- Conteúdos indexados são utilizados como contexto adicional para respostas\\n- Indexação ocorre automaticamente ao definir/alterar caminhos das pastas\\n\\n### 4.4 Parâmetros de Resposta\\n- Temperatura: controla aleatoriedade da resposta (valores típicos: 0.0 a 1.0)\\n- Max Tokens: limita quantidade de tokens gerados na resposta\\n- Alterações nos parâmetros aplicam-se imediatamente às próximas respostas\\n\\n### 4.5 Persistência de Dados\\n- Histórico de chat armazenado localmente no dispositivo\\n- Configurações do Painel de Controle (modelo selecionado, caminhos RAG, parâmetros) persistidas localmente\\n\\n## 5. Exceções e Casos Limite\\n\\n| Situação | Comportamento Esperado |\\n|----------|------------------------|\\n| Nenhum modelo carregado | Sistema exibe mensagem informando necessidade de carregar modelo antes de iniciar conversa |\\n| Arquivo anexado em formato não suportado | Sistema exibe mensagem de erro indicando formatos aceitos |\\n| Pasta RAG inexistente ou inacessível | Sistema exibe aviso e ignora pasta na indexação |\\n| Valor de Temperatura fora do intervalo | Sistema ajusta automaticamente para valor mínimo ou máximo permitido |\\n| Valor de Max Tokens igual a zero ou negativo | Sistema utiliza valor padrão predefinido |\\n| Histórico de chat vazio ao tentar limpar | Sistema não executa ação |\\n| TTS ativado mas sem suporte no dispositivo | Sistema exibe aviso e desativa TTS automaticamente |\\n\\n## 6. Critérios de Aceitação\\n\\n1. Usuário acessa a Página Principal e visualiza interface de chat vazia\\n2. Usuário clica no ícone de engrenagem e acessa o Painel de Controle\\n3. Usuário seleciona e carrega modelo binário (.gguf ou .bin) no Gestor de Modelos\\n4. Usuário define caminhos das pastas de armazenamento no Controle de RAG\\n5. Usuário retorna à Página Principal e digita mensagem de texto no campo de entrada\\n6. Usuário clica em enviar e visualiza resposta do sistema na área de conversa\\n7. Usuário anexa arquivo (imagem, vídeo, áudio ou documento) e envia mensagem\\n8. Sistema processa arquivo e exibe resposta considerando conteúdo anexado e base RAG\\n\\n## 7. Funcionalidades Não Implementadas Nesta Versão\\n\\n- Suporte a múltiplos modelos carregados simultaneamente\\n- Edição ou exclusão de mensagens individuais no histórico\\n- Exportação de histórico de chat para arquivo externo\\n- Busca ou filtro no histórico de conversas\\n- Configuração avançada de parâmetros do motor de inferência além de Temperatura e Max Tokens\\n- Suporte a idiomas adicionais na interface além do Português\\n- Sincronização de dados entre dispositivos\\n- Notificações ou alertas de sistema\\n- Temas ou personalização visual da interface\\n- Gestão de múltiplas sessões de chat simultâneas\\n- Controle de versões de modelos binários\\n- Estatísticas de uso ou desempenho do sistema\', \'intent_query\': \'PROJETO: CONSTRUTOR DE CHAT MULTIMODAL E GESTOR DE BINÁRIOS\\n\\nOBJETIVO: Criar a estrutura completa de um aplicativo de chat de alto nível, com interface nativa, motor de gestão de arquivos (RAG) e suporte a inferência via modelos locais (.gguf / .bin). O aplicativo é desenhado para rodar puramente local, processando dados do armazenamento do dispositivo.\\n\\n1. ESTRUTURA DO CHAT (A CASA):\\nInterface de Conversa: Layout de chat limpo e profissional, com suporte a:\\n- Entrada de texto com envio imediato.\\n- Botão de anexo para upload de Imagens, Vídeos, Documentos e Áudios.\\n- Renderização fiel de respostas (texto e arquivos processados pelo motor local).\\n- Gestão de Sessões: Histórico persistente, com controle total para limpar chats e organizar memórias.\\n\\n2. A "ENGRENAGEM" (CONTROLE TOTAL):\\nÍcone de engrenagem no topo, levando ao painel de controle do motor contendo:\\n- Gestor de Modelos: Interface para mapear e carregar binários (.gguf / .bin) diretamente do armazenamento interno.\\n- Controle de RAG: Gestão das pastas de armazenamento (fotos, vídeos, áudios, documentos), com estrutura pronta para absorver e indexar conteúdos automaticamente como inteligência base.\\n- Controle de Resposta: Sliders para ajuste de Temperatura (criatividade) e Max Tokens (tamanho da resposta), garantindo precisão absoluta e controle total sobre a saída do modelo.\\n- Configurações de Áudio: Chave para ativação de voz humana natural (TTS), fluida e sem traços robóticos.\\n\\n3. MECANISMO DE I/O E PROCESSAMENTO:\\n- Multimodalidade: O sistema é estruturado para capturar, processar e responder com qualquer tipo de arquivo (texto, imagem, vídeo, áudio), tratando-os como dados reais de entrada e saída.\\n- Bridge de Execução: O aplicativo deve expor um hook de execução robusto para o binário carregado, permitindo que o motor de inferência processe os dados do chat sem latência ou desvios lógicos.\\n- Integração RAG: O motor deve realizar a leitura e escrita automática nas pastas definidas, tratando o conteúdo armazenado como base de conhecimento real para todas as respostas.\\n\\n4. PROTOCOLO DE CONSTRUÇÃO E ENTREGA:\\n- Execução Direta: Todo o código gerado deve ser focado na lógica de funcionamento pleno. O sistema é desenhado para ser funcional, sem mecanismos de simulação ou adivinhação.\\n- Aprimoramento: Autonomia para sugerir melhorias na arquitetura da interface ou na eficiência do tráfego de dados entre o chat e as pastas, mantendo sempre a estrutura de controle local.\\n- Entrega: A plataforma deve gerar a estrutura completa, pronta para que o usuário possa aplicar os binários e ativar o motor de inferência, garantindo que a casa esteja pronta para o uso imediato e totalmente independente de APIs externas.\\n\\nTipo de app: Aplicativo Web (interface web completa)\\nIdioma da UI: Português\', \'type\': \'prdAgentAction\', \'app_name\': \'Construtor de Chat Multimodal e Gestor de Binários\', \'app_desc\': \'Aplicação web de chat local com capacidade de processar múltiplos tipos de arquivos (texto, imagem, vídeo, áudio, documentos), gerenciar modelos de inferência em formato binário (.gguf / .bin) e indexar conteúdos do armazenamento local como base de conhecimento (RAG). O sistema opera completamente offline, sem dependência de APIs externas.\', \'should_refuse_answer\': False, \'status\': \'success\', \'is_generated\': False, \'summary\': \'\'}', subagent_id='conv-caq9b6amcni8/subagent-PRDAgent-ID11', subagent_name='PRDAgent', status='completed', summary='', files_changed=[], error=None, input={'lang_env': 'English', 'lang_user': 'Portuguese', 'prd': '', 'app_type': '', 'is_generated': False, 'metadata': {'a2a': [{'kind': 'text', 'metadata': None, 'text': 'PROJETO: CONSTRUTOR DE CHAT MULTIMODAL E GESTOR DE BINÁRIOS\n\u200bOBJETIVO: Criar a estrutura completa de um aplicativo de chat de alto nível, com interface nativa, motor de gestão de arquivos (RAG) e suporte a inferência via modelos locais (.gguf / .bin). O aplicativo é desenhado para rodar puramente local, processando dados do armazenamento do dispositivo.\n\u200b1. ESTRUTURA DO CHAT (A CASA):\n\u200bInterface de Conversa: Layout de chat limpo e profissional, com suporte a:\n\u200bEntrada de texto com envio imediato.\n\u200bBotão de anexo para upload de Imagens, Vídeos, Documentos e Áudios.\n\u200bRenderização fiel de respostas (texto e arquivos processados pelo motor local).\n\u200bGestão de Sessões: Histórico persistente, com controle total para limpar chats e organizar memórias.\n\u200b2. A "ENGRENAGEM" (CONTROLE TOTAL):\n\u200bÍcone de engrenagem no topo, levando ao painel de controle do motor contendo:\n\u200bGestor de Modelos: Interface para mapear e carregar binários (.gguf / .bin) diretamente do armazenamento interno.\n\u200bControle de RAG: Gestão das pastas de armazenamento (fotos, vídeos, áudios, documentos), com estrutura pronta para absorver e indexar conteúdos automaticamente como inteligência base.\n\u200bControle de Resposta: Sliders para ajuste de Temperatura (criatividade) e Max Tokens (tamanho da resposta), garantindo precisão absoluta e controle total sobre a saída do modelo.\n\u200bConfigurações de Áudio: Chave para ativação de voz humana natural (TTS), fluida e sem traços robóticos.\n\u200b3. MECANISMO DE I/O E PROCESSAMENTO:\n\u200bMultimodalidade: O sistema é estruturado para capturar, processar e responder com qualquer tipo de arquivo (texto, imagem, vídeo, áudio), tratando-os como dados reais de entrada e saída.\n\u200bBridge de Execução: O aplicativo deve expor um hook de execução robusto para o binário carregado, permitindo que o motor de inferência processe os dados do chat sem latência ou desvios lógicos.\n\u200bIntegração RAG: O motor deve realizar a leitura e escrita automática nas pastas definidas, tratando o conteúdo armazenado como base de conhecimento real para todas as respostas.\n\u200b4. PROTOCOLO DE CONSTRUÇÃO E ENTREGA:\n\u200bExecução Direta: Todo o código gerado deve ser focado na lógica de funcionamento pleno. O sistema é desenhado para ser funcional, sem mecanismos de simulação ou adivinhação.\n\u200bAprimoramento: Você tem autonomia para sugerir melhorias na arquitetura da interface ou na eficiência do tráfego de dados entre o chat e as pastas, mantendo sempre a estrutura de controle local.\n\u200bEntrega: A plataforma deve gerar a estrutura completa, pronta para que eu possa aplicar os binários e ativar o motor de inferência, garantindo que a casa esteja pronta para o uso imediato e totalmente independente de APIs externas.'}], 'defaultAgent': 'AdaProCodeactAgent', 'agentConfig': {}, 'runtime': 'miaoda', 'lang': 'en', 'queryMode': 'deep_mode', 'appStatus': 'not_generate', 'hasAgent': False, 'cur_version_last_event_id': -1, 'supportSupabase': 'true', 'subscription_plan': 'free', 'senderUserId': 'user-c82tu37yj8jk', 'is_user_input': True, 'firstMessage': 'PROJETO: CONSTRUTOR DE CHAT MULTIMODAL E GESTOR DE BINÁRIOS\n\u200bOBJETIVO: Criar a estrutura completa de um aplicativo de chat de alto nível, com interface nativa, motor de gestão de arquivos (RAG) e suporte a inferência via modelos locais (.gguf / .bin). O aplicativo é desenhado para rodar puramente local, processando dados do armazenamento do dispositivo.\n\u200b1. ESTRUTURA DO CHAT (A CASA):\n\u200bInterface de Conversa: Layout de chat limpo e profissional, com suporte a:\n\u200bEntrada de texto com envio imediato.\n\u200bBotão de anexo para upload de Imagens, Vídeos, Documentos e Áudios.\n\u200bRenderização fiel de respostas (texto e arquivos processados pelo motor local).\n\u200bGestão de Sessões: Histórico persistente, com controle total para limpar chats e organizar memórias.\n\u200b2. A "ENGRENAGEM" (CONTROLE TOTAL):\n\u200bÍcone de engrenagem no topo, levando ao painel de controle do motor contendo:\n\u200bGestor de Modelos: Interface para mapear e carregar binários (.gguf / .bin) diretamente do armazenamento interno.\n\u200bControle de RAG: Gestão das pastas de armazenamento (fotos, vídeos, áudios, documentos), com estrutura pronta para absorver e indexar conteúdos automaticamente como inteligência base.\n\u200bControle de Resposta: Sliders para ajuste de Temperatura (criatividade) e Max Tokens (tamanho da resposta), garantindo precisão absoluta e controle total sobre a saída do modelo.\n\u200bConfigurações de Áudio: Chave para ativação de voz humana natural (TTS), fluida e sem traços robóticos.\n\u200b3. MECANISMO DE I/O E PROCESSAMENTO:\n\u200bMultimodalidade: O sistema é estruturado para capturar, processar e responder com qualquer tipo de arquivo (texto, imagem, vídeo, áudio), tratando-os como dados reais de entrada e saída.\n\u200bBridge de Execução: O aplicativo deve expor um hook de execução robusto para o binário carregado, permitindo que o motor de inferência processe os dados do chat sem latência ou desvios lógicos.\n\u200bIntegração RAG: O motor deve realizar a leitura e escrita automática nas pastas definidas, tratando o conteúdo armazenado como base de conhecimento real para todas as respostas.\n\u200b4. PROTOCOLO DE CONSTRUÇÃO E ENTREGA:\n\u200bExecução Direta: Todo o código gerado deve ser focado na lógica de funcionamento pleno. O sistema é desenhado para ser funcional, sem mecanismos de simulação ou adivinhação.\n\u200bAprimoramento: Você tem autonomia para sugerir melhorias na arquitetura da interface ou na eficiência do tráfego de dados entre o chat e as pastas, mantendo sempre a estrutura de controle local.\n\u200bEntrega: A plataforma deve gerar a estrutura completa, pronta para que eu possa aplicar os binários e ativar o motor de inferência, garantindo que a casa esteja pronta para o uso imediato e totalmente independente de APIs externas.'}, 'generate_app_requested': False}, output={'actions': [{'type': 'button', 'label': 'Generate App', 'value': 'Generate App', 'event': {'name': 'generateApp'}}], 'appInfo': {'requirementType': 'Web'}, 'appType': 'Web', 'prd': '# Documento de Requisitos\n\n## 1. Visão Geral da Aplicação\n\n### 1.1 Nome da Aplicação\nConstrutor de Chat Multimodal e Gestor de Binários\n\n### 1.2 Descrição\nAplicação web de chat local com capacidade de processar múltiplos tipos de arquivos (texto, imagem, vídeo, áudio, documentos), gerenciar modelos de inferência em formato binário (.gguf / .bin) e indexar conteúdos do armazenamento local como base de conhecimento (RAG). O sistema opera completamente offline, sem dependência de APIs externas.\n\n## 2. Usuários e Cenários de Uso\n\n### 2.1 Usuário-Alvo\nUsuários que necessitam de processamento de linguagem natural e análise multimodal em ambiente local, com controle total sobre modelos e dados.\n\n### 2.2 Cenários Principais\n- Conversação com modelo de IA carregado localmente\n- Upload e processamento de arquivos diversos (imagens, vídeos, áudios, documentos)\n- Gestão de modelos binários e configuração de parâmetros de inferência\n- Indexação automática de conteúdos armazenados para enriquecimento de respostas\n\n## 3. Estrutura de Páginas e Funcionalidades\n\n```\nAplicação Web\n├── Página Principal (Interface de Chat)\n│   ├── Área de Conversa\n│   ├── Campo de Entrada\n│   ├── Botão de Anexo\n│   └── Ícone de Engrenagem (acesso ao Painel de Controle)\n└── Painel de Controle\n    ├── Gestor de Modelos\n    ├── Controle de RAG\n    ├── Controle de Resposta\n    └── Configurações de Áudio\n```\n\n### 3.1 Página Principal (Interface de Chat)\n\n#### 3.1.1 Área de Conversa\n- Exibir histórico de mensagens do usuário e respostas do sistema\n- Renderizar texto e arquivos processados (imagens, vídeos, áudios, documentos)\n- Suportar rolagem para visualização de conversas longas\n\n#### 3.1.2 Campo de Entrada\n- Permitir digitação de texto\n- Enviar mensagem ao pressionar Enter ou clicar em botão de envio\n\n#### 3.1.3 Botão de Anexo\n- Abrir seletor de arquivos do dispositivo\n- Aceitar tipos: imagens, vídeos, documentos, áudios\n- Anexar arquivo selecionado à mensagem\n\n#### 3.1.4 Gestão de Sessões\n- Persistir histórico de conversas no armazenamento local\n- Fornecer opção para limpar histórico de chat\n\n#### 3.1.5 Ícone de Engrenagem\n- Posicionado no topo da interface\n- Abrir Painel de Controle ao ser clicado\n\n### 3.2 Painel de Controle\n\n#### 3.2.1 Gestor de Modelos\n- Listar modelos binários (.gguf / .bin) disponíveis no armazenamento interno\n- Permitir seleção de modelo para carregamento\n- Exibir status do modelo carregado (ativo/inativo)\n\n#### 3.2.2 Controle de RAG\n- Mapear pastas de armazenamento: fotos, vídeos, áudios, documentos\n- Permitir definição de caminhos das pastas\n- Indexar automaticamente conteúdos das pastas definidas como base de conhecimento\n\n#### 3.2.3 Controle de Resposta\n- Slider de Temperatura: ajustar criatividade da resposta (valores numéricos)\n- Slider de Max Tokens: definir tamanho máximo da resposta (valores numéricos)\n\n#### 3.2.4 Configurações de Áudio\n- Chave de ativação/desativação de síntese de voz (TTS)\n- Quando ativado, respostas do sistema são convertidas em áudio\n\n## 4. Regras de Negócio e Lógica\n\n### 4.1 Fluxo de Processamento de Mensagem\n1. Usuário envia mensagem (texto e/ou arquivo anexado)\n2. Sistema captura entrada e encaminha para motor de inferência\n3. Motor processa entrada utilizando modelo carregado e base RAG\n4. Sistema exibe resposta na área de conversa\n5. Se TTS ativado, sistema reproduz resposta em áudio\n\n### 4.2 Carregamento de Modelo\n- Apenas um modelo pode estar ativo por vez\n- Ao selecionar novo modelo, sistema descarrega modelo anterior\n- Modelo deve estar em formato .gguf ou .bin\n\n### 4.3 Indexação RAG\n- Sistema lê conteúdos das pastas definidas em Controle de RAG\n- Conteúdos indexados são utilizados como contexto adicional para respostas\n- Indexação ocorre automaticamente ao definir/alterar caminhos das pastas\n\n### 4.4 Parâmetros de Resposta\n- Temperatura: controla aleatoriedade da resposta (valores típicos: 0.0 a 1.0)\n- Max Tokens: limita quantidade de tokens gerados na resposta\n- Alterações nos parâmetros aplicam-se imediatamente às próximas respostas\n\n### 4.5 Persistência de Dados\n- Histórico de chat armazenado localmente no dispositivo\n- Configurações do Painel de Controle (modelo selecionado, caminhos RAG, parâmetros) persistidas localmente\n\n## 5. Exceções e Casos Limite\n\n| Situação | Comportamento Esperado |\n|----------|------------------------|\n| Nenhum modelo carregado | Sistema exibe mensagem informando necessidade de carregar modelo antes de iniciar conversa |\n| Arquivo anexado em formato não suportado | Sistema exibe mensagem de erro indicando formatos aceitos |\n| Pasta RAG inexistente ou inacessível | Sistema exibe aviso e ignora pasta na indexação |\n| Valor de Temperatura fora do intervalo | Sistema ajusta automaticamente para valor mínimo ou máximo permitido |\n| Valor de Max Tokens igual a zero ou negativo | Sistema utiliza valor padrão predefinido |\n| Histórico de chat vazio ao tentar limpar | Sistema não executa ação |\n| TTS ativado mas sem suporte no dispositivo | Sistema exibe aviso e desativa TTS automaticamente |\n\n## 6. Critérios de Aceitação\n\n1. Usuário acessa a Página Principal e visualiza interface de chat vazia\n2. Usuário clica no ícone de engrenagem e acessa o Painel de Controle\n3. Usuário seleciona e carrega modelo binário (.gguf ou .bin) no Gestor de Modelos\n4. Usuário define caminhos das pastas de armazenamento no Controle de RAG\n5. Usuário retorna à Página Principal e digita mensagem de texto no campo de entrada\n6. Usuário clica em enviar e visualiza resposta do sistema na área de conversa\n7. Usuário anexa arquivo (imagem, vídeo, áudio ou documento) e envia mensagem\n8. Sistema processa arquivo e exibe resposta considerando conteúdo anexado e base RAG\n\n## 7. Funcionalidades Não Implementadas Nesta Versão\n\n- Suporte a múltiplos modelos carregados simultaneamente\n- Edição ou exclusão de mensagens individuais no histórico\n- Exportação de histórico de chat para arquivo externo\n- Busca ou filtro no histórico de conversas\n- Configuração avançada de parâmetros do motor de inferência além de Temperatura e Max Tokens\n- Suporte a idiomas adicionais na interface além do Português\n- Sincronização de dados entre dispositivos\n- Notificações ou alertas de sistema\n- Temas ou personalização visual da interface\n- Gestão de múltiplas sessões de chat simultâneas\n- Controle de versões de modelos binários\n- Estatísticas de uso ou desempenho do sistema', 'intent_query': 'PROJETO: CONSTRUTOR DE CHAT MULTIMODAL E GESTOR DE BINÁRIOS\n\nOBJETIVO: Criar a estrutura completa de um aplicativo de chat de alto nível, com interface nativa, motor de gestão de arquivos (RAG) e suporte a inferência via modelos locais (.gguf / .bin). O aplicativo é desenhado para rodar puramente local, processando dados do armazenamento do dispositivo.\n\n1. ESTRUTURA DO CHAT (A CASA):\nInterface de Conversa: Layout de chat limpo e profissional, com suporte a:\n- Entrada de texto com envio imediato.\n- Botão de anexo para upload de Imagens, Vídeos, Documentos e Áudios.\n- Renderização fiel de respostas (texto e arquivos processados pelo motor local).\n- Gestão de Sessões: Histórico persistente, com controle total para limpar chats e organizar memórias.\n\n2. A "ENGRENAGEM" (CONTROLE TOTAL):\nÍcone de engrenagem no topo, levando ao painel de controle do motor contendo:\n- Gestor de Modelos: Interface para mapear e carregar binários (.gguf / .bin) diretamente do armazenamento interno.\n- Controle de RAG: Gestão das pastas de armazenamento (fotos, vídeos, áudios, documentos), com estrutura pronta para absorver e indexar conteúdos automaticamente como inteligência base.\n- Controle de Resposta: Sliders para ajuste de Temperatura (criatividade) e Max Tokens (tamanho da resposta), garantindo precisão absoluta e controle total sobre a saída do modelo.\n- Configurações de Áudio: Chave para ativação de voz humana natural (TTS), fluida e sem traços robóticos.\n\n3. MECANISMO DE I/O E PROCESSAMENTO:\n- Multimodalidade: O sistema é estruturado para capturar, processar e responder com qualquer tipo de arquivo (texto, imagem, vídeo, áudio), tratando-os como dados reais de entrada e saída.\n- Bridge de Execução: O aplicativo deve expor um hook de execução robusto para o binário carregado, permitindo que o motor de inferência processe os dados do chat sem latência ou desvios lógicos.\n- Integração RAG: O motor deve realizar a leitura e escrita automática nas pastas definidas, tratando o conteúdo armazenado como base de conhecimento real para todas as respostas.\n\n4. PROTOCOLO DE CONSTRUÇÃO E ENTREGA:\n- Execução Direta: Todo o código gerado deve ser focado na lógica de funcionamento pleno. O sistema é desenhado para ser funcional, sem mecanismos de simulação ou adivinhação.\n- Aprimoramento: Autonomia para sugerir melhorias na arquitetura da interface ou na eficiência do tráfego de dados entre o chat e as pastas, mantendo sempre a estrutura de controle local.\n- Entrega: A plataforma deve gerar a estrutura completa, pronta para que o usuário possa aplicar os binários e ativar o motor de inferência, garantindo que a casa esteja pronta para o uso imediato e totalmente independente de APIs externas.\n\nTipo de app: Aplicativo Web (interface web completa)\nIdioma da UI: Português', 'type': 'prdAgentAction', 'app_name': 'Construtor de Chat Multimodal e Gestor de Binários', 'app_desc': 'Aplicação web de chat local com capacidade de processar múltiplos tipos de arquivos (texto, imagem, vídeo, áudio, documentos), gerenciar modelos de inferência em formato binário (.gguf / .bin) e indexar conteúdos do armazenamento local como base de conhecimento (RAG). O sistema opera completamente offline, sem dependência de APIs externas.', 'should_refuse_answer': False, 'status': 'success', 'is_generated': False, 'summary': ''}, observation=<ObservationType.SUBAGENT: 'subagent'>)
+</observation>
+<action>
+**MessageAction** (source=EventSource.AGENT)
+CONTENT: 
+</action>
+<action>
+**MessageAction** (source=EventSource.USER)
+CONTENT: ATENÇÃO ÀS DIRETRIZES DE EXECUÇÃO - PROTOCOLO DE BLINDAGEM OBRIGATÓRIO:
+​Antes de iniciar a geração do aplicativo, você deve reconfigurar sua lógica de construção seguindo estritamente estas ordens, sem exceções:
+​ELIMINAÇÃO DE MENSAGENS DE ERRO: Remova toda e qualquer lógica que preveja "exibir mensagens de erro", "avisos de falha" ou "notificações de sistema". O aplicativo deve ser projetado com arquitetura de alta resiliência. Se um dado não está pronto ou um arquivo não está mapeado, o motor deve simplesmente aguardar o apontamento correto, sem interromper o fluxo com pop-ups ou avisos de erro. Trabalhamos com fatos e lógica plena, não com simulações de suporte ao usuário.
+​EXECUÇÃO LOCAL PURA (ZERO API): É estritamente proibida qualquer integração com APIs de terceiros (nuvem). A lógica de processamento deve ser montada exclusivamente para realizar o hook de execução via armazenamento local do dispositivo. O "motor" que processa o chat é um binário externo que eu vou plugar; você deve apenas construir a "ponte" (bridge) de entrada e saída.
+​INTEGRIDADE DA LÓGICA: Você não tem autonomia para modificar a estrutura da Engrenagem ou o layout do Chat. Siga o documento de requisitos exatamente como estabelecido, garantindo que o sistema de RAG absorva os arquivos (fotos, vídeos, áudios) e os utilize como contexto real de processamento para a inferência local.
+​OBJETIVO ÚNICO: O seu único papel é construir a interface funcional e o sistema de ponte de dados. A inteligência e a inferência são responsabilidades exclusivas dos modelos .gguf/.bin que eu irei instalar. Não tente criar "lógicas de inteligência" dentro da plataforma; apenas crie a infraestrutura para que a minha inteligência local opere perfeitamente.
+​Confirme que entendeu estas diretrizes de blindagem e proceda com a execução da estrutura exatamente como definida no documento de requisitos, sem desvios e sem mensagens de erro.
+</action>
+<action>
+**RecallAction**
+QUERY: ATENÇÃO ÀS DIRETRIZES DE EXECUÇÃO - PROTOCOLO DE B
+</action>
+<action>
+**MCPAction**
+NAME: aesthetic_template
+ARGUMENTS: {'input': 'dark professional AI chat interface with deep charcoal backgrounds, electric blue accents, clean minimal layout, high-tech local inference engine control panel', 'appId': 'app-caq9b6amcni9', 'userId': 'user-c82tu37yj8jk', 'appType': 'Web', 'prd': '# Documento de Requisitos\n\n## 1. Visão Geral da Aplicação\n\n### 1.1 Nome da Aplicação\nConstrutor de Chat Multimodal e Gestor de Binários\n\n### 1.2 Descrição\nAplicação web de chat local com capacidade de processar múltiplos tipos de arquivos (texto, imagem, vídeo, áudio, documentos), gerenciar modelos de inferência em formato binário (.gguf / .bin) e indexar conteúdos do armazenamento local como base de conhecimento (RAG). O sistema opera completamente offline, sem dependência de APIs externas.\n\n## 2. Usuários e Cenários de Uso\n\n### 2.1 Usuário-Alvo\nUsuários que necessitam de processamento de linguagem natural e análise multimodal em ambiente local, com controle total sobre modelos e dados.\n\n### 2.2 Cenários Principais\n- Conversação com modelo de IA carregado localmente\n- Upload e processamento de arquivos diversos (imagens, vídeos, áudios, documentos)\n- Gestão de modelos binários e configuração de parâmetros de inferência\n- Indexação automática de conteúdos armazenados para enriquecimento de respostas\n\n## 3. Estrutura de Páginas e Funcionalidades\n\n```\nAplicação Web\n├── Página Principal (Interface de Chat)\n│   ├── Área de Conversa\n│   ├── Campo de Entrada\n│   ├── Botão de Anexo\n│   └── Ícone de Engrenagem (acesso ao Painel de Controle)\n└── Painel de Controle\n    ├── Gestor de Modelos\n    ├── Controle de RAG\n    ├── Controle de Resposta\n    └── Configurações de Áudio\n```\n\n### 3.1 Página Principal (Interface de Chat)\n\n#### 3.1.1 Área de Conversa\n- Exibir histórico de mensagens do usuário e respostas do sistema\n- Renderizar texto e arquivos processados (imagens, vídeos, áudios, documentos)\n- Suportar rolagem para visualização de conversas longas\n\n#### 3.1.2 Campo de Entrada\n- Permitir digitação de texto\n- Enviar mensagem ao pressionar Enter ou clicar em botão de envio\n\n#### 3.1.3 Botão de Anexo\n- Abrir seletor de arquivos do dispositivo\n- Aceitar tipos: imagens, vídeos, documentos, áudios\n- Anexar arquivo selecionado à mensagem\n\n#### 3.1.4 Gestão de Sessões\n- Persistir histórico de conversas no armazenamento local\n- Fornecer opção para limpar histórico de chat\n\n#### 3.1.5 Ícone de Engrenagem\n- Posicionado no topo da interface\n- Abrir Painel de Controle ao ser clicado\n\n### 3.2 Painel de Controle\n\n#### 3.2.1 Gestor de Modelos\n- Listar modelos binários (.gguf / .bin) disponíveis no armazenamento interno\n- Permitir seleção de modelo para carregamento\n- Exibir status do modelo carregado (ativo/inativo)\n\n#### 3.2.2 Controle de RAG\n- Mapear pastas de armazenamento: fotos, vídeos, áudios, documentos\n- Permitir definição de caminhos das pastas\n- Indexar automaticamente conteúdos das pastas definidas como base de conhecimento\n\n#### 3.2.3 Controle de Resposta\n- Slider de Temperatura: ajustar criatividade da resposta (valores numéricos)\n- Slider de Max Tokens: definir tamanho máximo da resposta (valores numéricos)\n\n#### 3.2.4 Configurações de Áudio\n- Chave de ativação/desativação de síntese de voz (TTS)\n- Quando ativado, respostas do sistema são convertidas em áudio\n\n## 4. Regras de Negócio e Lógica\n\n### 4.1 Fluxo de Processamento de Mensagem\n1. Usuário envia mensagem (texto e/ou arquivo anexado)\n2. Sistema captura entrada e encaminha para motor de inferência\n3. Motor processa entrada utilizando modelo carregado e base RAG\n4. Sistema exibe resposta na área de conversa\n5. Se TTS ativado, sistema reproduz resposta em áudio\n\n### 4.2 Carregamento de Modelo\n- Apenas um modelo pode estar ativo por vez\n- Ao selecionar novo modelo, sistema descarrega modelo anterior\n- Modelo deve estar em formato .gguf ou .bin\n\n### 4.3 Indexação RAG\n- Sistema lê conteúdos das pastas definidas em Controle de RAG\n- Conteúdos indexados são utilizados como contexto adicional para respostas\n- Indexação ocorre automaticamente ao definir/alterar caminhos das pastas\n\n### 4.4 Parâmetros de Resposta\n- Temperatura: controla aleatoriedade da resposta (valores típicos: 0.0 a 1.0)\n- Max Tokens: limita quantidade de tokens gerados na resposta\n- Alterações nos parâmetros aplicam-se imediatamente às próximas respostas\n\n### 4.5 Persistência de Dados\n- Histórico de chat armazenado localmente no dispositivo\n- Configurações do Painel de Controle (modelo selecionado, caminhos RAG, parâmetros) persistidas localmente\n\n## 5. Exceções e Casos Limite\n\n| Situação | Comportamento Esperado |\n|----------|------------------------|\n| Nenhum modelo carregado | Sistema exibe mensagem informando necessidade de carregar modelo antes de iniciar conversa |\n| Arquivo anexado em formato não suportado | Sistema exibe mensagem de erro indicando formatos aceitos |\n| Pasta RAG inexistente ou inacessível | Sistema exibe aviso e ignora pasta na indexação |\n| Valor de Temperatura fora do intervalo | Sistema ajusta automaticamente para valor mínimo ou máximo permitido |\n| Valor de Max Tokens igual a zero ou negativo | Sistema utiliza valor padrão predefinido |\n| Histórico de chat vazio ao tentar limpar | Sistema não executa ação |\n| TTS ativado mas sem suporte no dispositivo | Sistema exibe aviso e desativa TTS automaticamente |\n\n## 6. Critérios de Aceitação\n\n1. Usuário acessa a Página Principal e visualiza interface de chat vazia\n2. Usuário clica no ícone de engrenagem e acessa o Painel de Controle\n3. Usuário seleciona e carrega modelo binário (.gguf ou .bin) no Gestor de Modelos\n4. Usuário define caminhos das pastas de armazenamento no Controle de RAG\n5. Usuário retorna à Página Principal e digita mensagem de texto no campo de entrada\n6. Usuário clica em enviar e visualiza resposta do sistema na área de conversa\n7. Usuário anexa arquivo (imagem, vídeo, áudio ou documento) e envia mensagem\n8. Sistema processa arquivo e exibe resposta considerando conteúdo anexado e base RAG\n\n## 7. Funcionalidades Não Implementadas Nesta Versão\n\n- Suporte a múltiplos modelos carregados simultaneamente\n- Edição ou exclusão de mensagens individuais no histórico\n- Exportação de histórico de chat para arquivo externo\n- Busca ou filtro no histórico de conversas\n- Configuração avançada de parâmetros do motor de inferência além de Temperatura e Max Tokens\n- Suporte a idiomas adicionais na interface além do Português\n- Sincronização de dados entre dispositivos\n- Notificações ou alertas de sistema\n- Temas ou personalização visual da interface\n- Gestão de múltiplas sessões de chat simultâneas\n- Controle de versões de modelos binários\n- Estatísticas de uso ou desempenho do sistema'}
+</action>
+<observation>
+**MCPObservation**
+NAME: aesthetic_template
+RESULTS: **Direção Visual Escolhida: Racionalidade de Ferramenta (Tool Rationality)**
+O design foca na eficiência técnica e controle de dados locais, adequado para usuários que gerenciam modelos binários e indexação RAG. A interface prioriza a densidade de informação e a clareza funcional.
+
+### 1. Color (Esquema de Cores)
+- Fundo principal: Cinza escuro sólido (#121212) para conforto em uso prolongado e foco no conteúdo.
+- Cor primária: Verde terminal (#00FF66) aplicado estritamente para indicar status de sistema (modelo ativo, TTS ligado, botão de envio).
+- Cor de destaque: Laranja técnico (#FF6B00) exclusivo para exceções (erros de formato, pastas inacessíveis).
+- Superfícies: Cinza chumbo (#1E1E1E) para diferenciar o Painel de Controle e os balões do sistema.
+- Texto: Cinza claro (#E0E0E0) para leitura, garantindo alto contraste com o fundo. Proibido uso de gradientes.
+
+### 2. Layout (Estrutura de Layout)
+- Estrutura de tela dividida: Área de chat ocupando a coluna principal; Painel de Controle operando como uma barra lateral fixa ou gaveta sobreposta, permitindo ajuste de parâmetros sem perder o contexto da conversa.
+- Área de chat: Alinhamento vertical rigoroso. Mensagens limitadas a 80% da largura da tela para otimizar a leitura.
+- Painel de Controle: Organização em blocos modulares (Gestor, RAG, Parâmetros). Uso de grid denso para agrupar controles técnicos de forma compacta.
+- Espaçamento: Sistema de grid estrito de 8px para criar hierarquia através do espaço em branco, sem linhas divisórias desnecessárias.
+
+### 3. Elements (Elementos de Interface)
+- Tipografia: Fonte monoespaçada para caminhos de pastas RAG, nomes de arquivos `.gguf` e valores numéricos; fonte sans-serif neutra para o texto do chat.
+- Formas: Componentes com bordas retas ou raio mínimo (2px), transmitindo precisão técnica e utilitarismo.
+- Controles: Sliders de Temperatura e Tokens exibem o valor numérico exato permanentemente ao lado do controle.
+- Anexos: Representados por blocos retangulares contendo a extensão do arquivo em texto e o peso (ex: `documento.pdf | 2MB`), sem ilustrações complexas.
+- Ícones: Vetores de linha fina (1.5px), estritamente funcionais (engrenagem, clipe de papel).
+
+### 4. Motion (Design de Animação)
+- Geração de resposta: O texto do modelo aparece progressivamente, refletindo o processamento do motor de inferência local.
+- Feedback de interação: Mudanças de estado (ativar TTS, selecionar modelo) utilizam transições rápidas de opacidade (150ms).
+- Navegação: Abertura do Painel de Controle via deslizamento horizontal (`transform: translateX`) com curva de aceleração `ease-out` (200ms).
+- Uploads: Arquivos anexados surgem na interface através de um `fade-in` simples, confirmando a ação sem atrasar o fluxo do usuário.
+</observation>
+<action>
+**MCPAction**
+NAME: app_icon_generate
+ARGUMENTS: {'query': 'multimodal AI chat engine with binary model gears, dark theme, electric blue, local inference', 'appId': 'app-caq9b6amcni9', 'userId': 'user-c82tu37yj8jk', 'appType': 'Web'}
+</action>
+<observation>
+**MCPObservation**
+NAME: app_icon_generate
+RESULTS: {"query":"multimodal AI chat engine with binary model gears, dark theme, electric blue, local inference","urls":["https://miaoda-site-img.s3cdn.medo.dev/app-icons/app_icon_3bfea033-a313-4119-ba7c-5c7a40b27c8f.png"]}
+</observation>
+<action>
+FileReadAction(path='/workspace/app-caq9b6amcni9', start=0, end=-1, thought='', action=<ActionType.READ: 'read'>, security_risk=None, impl_source='oh_aci', view_range=None, user_hidden=False)
+</action>
+<observation>
+[Read from /workspace/app-caq9b6amcni9 is successful.]
+Here's the files and directories up to 2 levels deep in /workspace/app-caq9b6amcni9, excluding hidden:
+/workspace/app-caq9b6amcni9
+/workspace/app-caq9b6amcni9/node_modules
+/workspace/app-caq9b6amcni9/tsconfig.app.json
+/workspace/app-caq9b6amcni9/tasks
+/workspace/app-caq9b6amcni9/tsconfig.node.json
+/workspace/app-caq9b6amcni9/tsconfig.check.json
+/workspace/app-caq9b6amcni9/README.md
+/workspace/app-caq9b6amcni9/postcss.config.js
+/workspace/app-caq9b6amcni9/index.html
+/workspace/app-caq9b6amcni9/package.json
+/workspace/app-caq9b6amcni9/sgconfig.yml
+/workspace/app-caq9b6amcni9/public
+/workspace/app-caq9b6amcni9/public/favicon.png
+/workspace/app-caq9b6amcni9/public/images
+/workspace/app-caq9b6amcni9/biome.json
+/workspace/app-caq9b6amcni9/components.json
+/workspace/app-caq9b6amcni9/docs
+/workspace/app-caq9b6amcni9/docs/prd.md
+/workspace/app-caq9b6amcni9/vite.config.ts
+/workspace/app-caq9b6amcni9/pnpm-workspace.yaml
+/workspace/app-caq9b6amcni9/tailwind.config.js
+/workspace/app-caq9b6amcni9/src
+/workspace/app-caq9b6amcni9/src/types
+/workspace/app-caq9b6amcni9/src/contexts
+/workspace/app-caq9b6amcni9/src/index.css
+/workspace/app-caq9b6amcni9/src/global.d.ts
+/workspace/app-caq9b6amcni9/src/pages
+/workspace/app-caq9b6amcni9/src/hooks
+/workspace/app-caq9b6amcni9/src/lib
+/workspace/app-caq9b6amcni9/src/App.tsx
+/workspace/app-caq9b6amcni9/src/svg.d.ts
+/workspace/app-caq9b6amcni9/src/main.tsx
+/workspace/app-caq9b6amcni9/src/vite-env.d.ts
+/workspace/app-caq9b6amcni9/src/services
+/workspace/app-caq9b6amcni9/src/components
+/workspace/app-caq9b6amcni9/src/routes.tsx
+/workspace/app-caq9b6amcni9/tsconfig.json
+
+
+</observation>
+<action>
+FileReadAction(path='/workspace/app-caq9b6amcni9/src/index.css', start=0, end=-1, thought='', action=<ActionType.READ: 'read'>, security_risk=None, impl_source='oh_aci', view_range=None, user_hidden=False)
+</action>
+<observation>
+[Read from /workspace/app-caq9b6amcni9/src/index.css is successful.]
+Here's the result of running `cat -n` on the file: /workspace/app-caq9b6amcni9/src/index.css:
+     1 /* stylelint-disable */
+     2 @tailwind base;
+     3 @tailwind components;
+     4 @tailwind utilities;
+     5 
+     6 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
+     7 All colors MUST be HSL.
+     8 */
+     9 
+    10 @layer base {
+    11   :root {
+    12     --radius: 0.5rem;
+    13     --background: 0 0% 100%;
+    14     --foreground: 222.2 84% 4.9%;
+    15     --card: 0 0% 100%;
+    16     --card-foreground: 222.2 84% 4.9%;
+    17     --popover: 0 0% 100%;
+    18     --popover-foreground: 222.2 84% 4.9%;
+    19     --primary: 222.2 47.4% 11.2%;
+    20     --primary-foreground: 210 40% 98%;
+    21     --secondary: 210 40% 96.1%;
+    22     --secondary-foreground: 222.2 47.4% 11.2%;
+    23     --muted: 210 40% 96.1%;
+    24     --muted-foreground: 215.4 16.3% 46.9%;
+    25     --accent: 210 40% 96.1%;
+    26     --accent-foreground: 222.2 47.4% 11.2%;
+    27     --destructive: 0 84.2% 60.2%;
+    28     --border: 214.3 31.8% 91.4%;
+    29     --input: 214.3 31.8% 91.4%;
+    30     --ring: 222.2 84% 4.9%;
+    31     --chart-1: 12 76% 61%;
+    32     --chart-2: 173 58% 39%;
+    33     --chart-3: 197 37% 24%;
+    34     --chart-4: 43 74% 66%;
+    35     --chart-5: 27 87% 67%;
+    36     --sidebar-background: 0 0% 98%;
+    37     --sidebar-foreground: 240 5.3% 26.1%;
+    38     --sidebar-primary: 240 5.9% 10%;
+    39     --sidebar-primary-foreground: 0 0% 98%;
+    40     --sidebar-accent: 240 4.8% 95.9%;
+    41     --sidebar-accent-foreground: 240 5.9% 10%;
+    42     --sidebar-border: 220 13% 91%;
+    43     --sidebar-ring: 217.2 91.2% 59.8%;
+    44     --destructive-foreground: 210 40% 98%;
+    45   }
+    46 
+    47   .dark {
+    48     --background: 222.2 84% 4.9%;
+    49     --foreground: 210 40% 98%;
+    50     --card: 222.2 84% 4.9%;
+    51     --card-foreground: 210 40% 98%;
+    52     --popover: 222.2 84% 4.9%;
+    53     --popover-foreground: 210 40% 98%;
+    54     --primary: 210 40% 98%;
+    55     --primary-foreground: 222.2 47.4% 11.2%;
+    56     --secondary: 217.2 32.6% 17.5%;
+    57     --secondary-foreground: 210 40% 98%;
+    58     --muted: 217.2 32.6% 17.5%;
+    59     --muted-foreground: 215 20.2% 65.1%;
+    60     --accent: 217.2 32.6% 17.5%;
+    61     --accent-foreground: 210 40% 98%;
+    62     --destructive: 0 62.8% 30.6%;
+    63     --border: 217.2 32.6% 17.5%;
+    64     --input: 217.2 32.6% 17.5%;
+    65     --ring: 212.7 26.8% 83.9%;
+    66     --chart-1: 220 70% 50%;
+    67     --chart-2: 160 60% 45%;
+    68     --chart-3: 30 80% 55%;
+    69     --chart-4: 280 65% 60%;
+    70     --chart-5: 340 75% 55%;
+    71     --sidebar-background: 240 5.9% 10%;
+    72     --sidebar-foreground: 240 4.8% 95.9%;
+    73     --sidebar-primary: 224.3 76.3% 48%;
+    74     --sidebar-primary-foreground: 0 0% 100%;
+    75     --sidebar-accent: 240 3.7% 15.9%;
+    76     --sidebar-accent-foreground: 240 4.8% 95.9%;
+    77     --sidebar-border: 240 3.7% 15.9%;
+    78     --sidebar-ring: 217.2 91.2% 59.8%;
+    79     --destructive-foreground: 210 40% 98%;
+    80   }
+    81 }
+    82 
+    83 @layer base {
+    84   * {
+    85     @apply border-border;
+    86   }
+    87 
+    88   body {
+    89     @apply bg-background text-foreground;
+    90   }
+    91 }
+    92 
+
+
+</observation>
+<action>
+FileReadAction(path='/workspace/app-caq9b6amcni9/tailwind.config.js', start=0, end=-1, thought='', action=<ActionType.READ: 'read'>, security_risk=None, impl_source='oh_aci', view_range=None, user_hidden=False)
+</action>
+<observation>
+[Read from /workspace/app-caq9b6amcni9/tailwind.config.js is successful.]
+Here's the result of running `cat -n` on the file: /workspace/app-caq9b6amcni9/tailwind.config.js:
+     1 import tailwindAnimate from 'tailwindcss-animate';
+     2 import containerQuery from '@tailwindcss/container-queries';
+     3 import intersect from 'tailwindcss-intersect';
+     4 
+     5 export default {
+     6     darkMode: ['class'],
+     7     content: [
+     8         './index.html',
+     9         './pages/**/*.{ts,tsx}',
+    10         './components/**/*.{ts,tsx}',
+    11         './app/**/*.{ts,tsx}',
+    12         './src/**/*.{ts,tsx}',
+    13         './node_modules/streamdown/dist/**/*.js'
+    14     ],
+    15     safelist: ['border', 'border-border'],
+    16     prefix: '',
+    17     theme: {
+    18         container: {
+    19             center: true,
+    20             padding: '2rem',
+    21             screens: {
+    22                 '2xl': '1400px'
+    23             }
+    24         },
+    25         extend: {
+    26             colors: {
+    27                 border: 'hsl(var(--border))',
+    28                 borderColor: {
+    29                     border: 'hsl(var(--border))'
+    30                 },
+    31                 input: 'hsl(var(--input))',
+    32                 ring: 'hsl(var(--ring))',
+    33                 background: 'hsl(var(--background))',
+    34                 foreground: 'hsl(var(--foreground))',
+    35                 primary: {
+    36                     DEFAULT: 'hsl(var(--primary))',
+    37                     foreground: 'hsl(var(--primary-foreground))'
+    38                 },
+    39                 secondary: {
+    40                     DEFAULT: 'hsl(var(--secondary))',
+    41                     foreground: 'hsl(var(--secondary-foreground))'
+    42                 },
+    43                 destructive: {
+    44                     DEFAULT: 'hsl(var(--destructive))',
+    45                     foreground: 'hsl(var(--destructive-foreground))'
+    46                 },
+    47                 muted: {
+    48                     DEFAULT: 'hsl(var(--muted))',
+    49                     foreground: 'hsl(var(--muted-foreground))'
+    50                 },
+    51                 accent: {
+    52                     DEFAULT: 'hsl(var(--accent))',
+    53                     foreground: 'hsl(var(--accent-foreground))'
+    54                 },
+    55                 popover: {
+    56                     DEFAULT: 'hsl(var(--popover))',
+    57                     foreground: 'hsl(var(--popover-foreground))'
+    58                 },
+    59                 card: {
+    60                     DEFAULT: 'hsl(var(--card))',
+    61                     foreground: 'hsl(var(--card-foreground))'
+    62                 },
+    63                 education: {
+    64                     blue: 'hsl(var(--education-blue))',
+    65                     green: 'hsl(var(--education-green))'
+    66                 },
+    67                 success: 'hsl(var(--success))',
+    68                 warning: 'hsl(var(--warning))',
+    69                 info: 'hsl(var(--info))',
+    70                 sidebar: {
+    71                     DEFAULT: 'hsl(var(--sidebar-background))',
+    72                     background: 'hsl(var(--sidebar-background))',
+    73                     foreground: 'hsl(var(--sidebar-foreground))',
+    74                     primary: 'hsl(var(--sidebar-primary))',
+    75                     'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+    76                     accent: 'hsl(var(--sidebar-accent))',
+    77                     'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+    78                     border: 'hsl(var(--sidebar-border))',
+    79                     ring: 'hsl(var(--sidebar-ring))'
+    80                 },
+    81                 chart: {
+    82                     '1': 'hsl(var(--chart-1))',
+    83                     '2': 'hsl(var(--chart-2))',
+    84                     '3': 'hsl(var(--chart-3))',
+    85                     '4': 'hsl(var(--chart-4))',
+    86                     '5': 'hsl(var(--chart-5))'
+    87                 }
+    88             },
+    89             borderRadius: {
+    90                 lg: 'var(--radius)',
+    91                 md: 'calc(var(--radius) - 2px)',
+    92                 sm: 'calc(var(--radius) - 4px)'
+    93             },
+    94             backgroundImage: {
+    95                 'gradient-primary': 'var(--gradient-primary)',
+    96                 'gradient-card': 'var(--gradient-card)',
+    97                 'gradient-background': 'var(--gradient-background)'
+    98             },
+    99             boxShadow: {
+   100                 card: 'var(--shadow-card)',
+   101                 hover: 'var(--shadow-hover)'
+   102             },
+   103             keyframes: {
+   104                 'accordion-down': {
+   105                     from: {
+   106                         height: '0'
+   107                     },
+   108                     to: {
+   109                         height: 'var(--radix-accordion-content-height)'
+   110                     }
+   111                 },
+   112                 'accordion-up': {
+   113                     from: {
+   114                         height: 'var(--radix-accordion-content-height)'
+   115                     },
+   116                     to: {
+   117                         height: '0'
+   118                     }
+   119                 },
+   120                 'fade-in': {
+   121                     from: {
+   122                         opacity: '0',
+   123                         transform: 'translateY(10px)'
+   124                     },
+   125                     to: {
+   126                         opacity: '1',
+   127                         transform: 'translateY(0)'
+   128                     }
+   129                 },
+   130                 'slide-in': {
+   131                     from: {
+   132                         opacity: '0',
+   133                         transform: 'translateX(-20px)'
+   134                     },
+   135                     to: {
+   136                         opacity: '1',
+   137                         transform: 'translateX(0)'
+   138                     }
+   139                 }
+   140             },
+   141             animation: {
+   142                 'accordion-down': 'accordion-down 0.2s ease-out',
+   143                 'accordion-up': 'accordion-up 0.2s ease-out',
+   144                 'fade-in': 'fade-in 0.5s ease-out',
+   145                 'slide-in': 'slide-in 0.5s ease-out'
+   146             }
+   147         }
+   148     },
+   149     plugins: [
+   150         tailwindAnimate,
+   151         containerQuery,
+   152         intersect,
+   153         function ({addUtilities}) {
+   154             addUtilities(
+   155                 {
+   156                     '.border-t-solid': {'border-top-style': 'solid'},
+   157                     '.border-r-solid': {'border-right-style': 'solid'},
+   158                     '.border-b-solid': {'border-bottom-style': 'solid'},
+   159                     '.border-l-solid': {'border-left-style': 'solid'},
+   160                     '.border-t-dashed': {'border-top-style': 'dashed'},
+   161                     '.border-r-dashed': {'border-right-style': 'dashed'},
+   162                     '.border-b-dashed': {'border-bottom-style': 'dashed'},
+   163                     '.border-l-dashed': {'border-left-style': 'dashed'},
+   164                     '.border-t-dotted': {'border-top-style': 'dotted'},
+   165                     '.border-r-dotted': {'border-right-style': 'dotted'},
+   166                     '.border-b-dotted': {'border-bottom-style': 'dotted'},
+   167                     '.border-l-dotted': {'border-left-style': 'dotted'},
+   168                 },
+   169                 ['responsive']
+   170             );
+   171         },
+   172     ],
+   173 };
+   174 
+
+
+</observation>
+<action>
+FileReadAction(path='/workspace/app-caq9b6amcni9/src/routes.tsx', start=0, end=-1, thought='', action=<ActionType.READ: 'read'>, security_risk=None, impl_source='oh_aci', view_range=None, user_hidden=False)
+</action>
+<observation>
+[Read from /workspace/app-caq9b6amcni9/src/routes.tsx is successful.]
+Here's the result of running `cat -n` on the file: /workspace/app-caq9b6amcni9/src/routes.tsx:
+     1 import SamplePage from './pages/SamplePage';
+     2 import type { ReactNode } from 'react';
+     3 
+     4 export interface RouteConfig {
+     5   name: string;
+     6   path: string;
+     7   element: ReactNode;
+     8   visible?: boolean;
+     9   /** Accessible without login. Routes without this flag require authentication. Has no effect when RouteGuard is not in use. */
+    10   public?: boolean;
+    11 }
+    12 
+    13 export const routes: RouteConfig[] = [
+    14   {
+    15     name: 'Sample Page',
+    16     path: '/',
+    17     element: <SamplePage />,
+    18     public: true,
+    19   }
+    20 ];
+    21 
+
+
+</observation>
+<action>
+FileReadAction(path='/workspace/app-caq9b6amcni9/src/App.tsx', start=0, end=-1, thought='', action=<ActionType.READ: 'read'>, security_risk=None, impl_source='oh_aci', view_range=None, user_hidden=False)
+</action>
+<observation>
+[Read from /workspace/app-caq9b6amcni9/src/App.tsx is successful.]
+Here's the result of running `cat -n` on the file: /workspace/app-caq9b6amcni9/src/App.tsx:
+     1 import React from 'react';
+     2 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+     3 import IntersectObserver from '@/components/common/IntersectObserver';
+     4 import { Toaster } from '@/components/ui/sonner';
+     5 
+     6 import { routes } from './routes';
+     7 
+     8 // import { AuthProvider } from '@/contexts/AuthContext';
+     9 // import { RouteGuard } from '@/components/common/RouteGuard';
+    10 
+    11 const App: React.FC = () => {
+    12   return (
+    13     <Router>
+    14       {/*<AuthProvider>*/}
+    15       {/*<RouteGuard>*/}
+    16       <IntersectObserver />
+    17       <div className="flex flex-col min-h-screen">
+    18         {/*<Header />*/}
+    19         <main className="flex-grow">
+    20           <Routes>
+    21           {routes.map((route, index) => (
+    22             <Route
+    23               key={index}
+    24               path={route.path}
+    25               element={route.element}
+    26             />
+    27           ))}
+    28           <Route path="*" element={<Navigate to="/" replace />} />
+    29           </Routes>
+    30         </main>
+    31       </div>
+    32       <Toaster />
+    33       {/*</RouteGuard>*/}
+    34       {/*</AuthProvider>*/}
+    35     </Router>
+    36   );
+    37 };
+    38 
+    39 export default App;
+    40 
+
+
+</observation>
+<action>
+FileReadAction(path='/workspace/app-caq9b6amcni9/src/components', start=0, end=-1, thought='', action=<ActionType.READ: 'read'>, security_risk=None, impl_source='oh_aci', view_range=None, user_hidden=False)
+</action>
+<observation>
+[Read from /workspace/app-caq9b6amcni9/src/components is successful.]
+Here's the files and directories up to 2 levels deep in /workspace/app-caq9b6amcni9/src/components, excluding hidden:
+/workspace/app-caq9b6amcni9/src/components
+/workspace/app-caq9b6amcni9/src/components/ui
+/workspace/app-caq9b6amcni9/src/components/ui/card.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/pagination.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/select.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/textarea.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/badge.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/video.css
+/workspace/app-caq9b6amcni9/src/components/ui/sidebar.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/alert-dialog.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/skeleton.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/scroll-area.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/progress.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/form.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/context-menu.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/resizable.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/separator.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/menubar.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/drawer.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/radio-group.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/qrcodedataurl.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/toggle.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/button.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/calendar.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/collapsible.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/accordion.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/multi-select.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/kbd.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/hover-card.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/dropdown-menu.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/slider.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/toggle-group.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/tabs.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/sonner.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/tooltip.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/switch.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/sheet.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/navigation-menu.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/carousel.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/video.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/input-otp.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/popover.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/breadcrumb.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/input.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/chart.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/alert.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/label.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/command.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/table.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/checkbox.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/dialog.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/aspect-ratio.tsx
+/workspace/app-caq9b6amcni9/src/components/ui/avatar.tsx
+/workspace/app-caq9b6amcni9/src/components/common
+/workspace/app-caq9b6amcni9/src/components/common/IntersectObserver.tsx
+/workspace/app-caq9b6amcni9/src/components/common/RouteGuard.tsx
+/workspace/app-caq9b6amcni9/src/components/common/PageMeta.tsx
+/workspace/app-caq9b6amcni9/src/components/dropzone.tsx
+
+
+</observation>
