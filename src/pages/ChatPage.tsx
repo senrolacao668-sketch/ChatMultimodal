@@ -118,7 +118,7 @@ export default function ChatPage() {
       </Sheet>
 
       {/* Área principal do chat */}
-      <div className="flex flex-col flex-1 min-w-0 overflow-hidden" style={{ height: '100dvh' }}>
+      <div className="flex flex-col flex-1 min-w-0 overflow-hidden" style={{ height: '100dvh', paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}>
 
         {/* Header */}
         <header className="shrink-0 flex items-center gap-3 px-3 sm:px-4 py-2.5 border-b border-border bg-card">
@@ -160,7 +160,7 @@ export default function ChatPage() {
         </ScrollArea>
 
         {/* Barra de entrada */}
-        <div className="shrink-0">
+        <div className="shrink-0 pb-safe">
           <InputBar onSend={handleSend} disabled={isProcessing} />
         </div>
       </div>
